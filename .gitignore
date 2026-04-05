@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# RL models and logs
+rl/models/
+rl/logs/
+
+# YOLO weights
+*.pt
+
+# OS
+.DS_Store
+
+# SITL artifacts
+eeprom.bin
+mav.parm
+mav.tlog
+mav.tlog.raw
+logs/
+terrain/
