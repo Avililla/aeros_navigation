@@ -3,12 +3,10 @@ name = "aeros-navigation"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = "==3.9.*"
+requires-python = ">=3.10"
 dependencies = [
-    "dronekit>=2.9.2",
     "gymnasium",
     "matplotlib",
-    "mavsdk",
     "numpy",
     "opencv-python",
     "pymavlink>=2.4.49",
